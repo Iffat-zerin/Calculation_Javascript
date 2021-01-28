@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="input1">75</div>
+    <div class="input2">25</div>
+    <h5 id="result"></h5>
+    <button onclick=" add();" class="mrgn_left">+</button>
+    <button onclick="sub(); ">-</button>
+    <button onclick="multi() ">*</button>
+    <button onclick=" div();">/</button>
+    <button onclick="mod(); ">%</button>
+    <script>
+        function add() {
+            var x = 75;
+            var y = 25;
+            var result = x + y;
+            document.getElementById('result').innerHTML = result;
+        }
+
+        function sub() {
+            var x = 75;
+            var y = 25;
+            var result = x - y;
+            document.getElementById('result').innerHTML = result;
+        }
+
+        function multi() {
+            var x = 75;
+            var y = 25;
+            var result = x * y;
+            document.getElementById('result').innerHTML = result;
+        }
+
+        function div() {
+            var x = 75;
+            var y = 25;
+            var result = x / y;
+            document.getElementById('result').innerHTML = result;
+        }
+
+        function mod() {
+            var x = 75;
+            var y = 25;
+            var result = x % y;
+            document.getElementById('result').innerHTML = result;
+        }
+
+    </script>
+
+
+</body>
+
+</html>
